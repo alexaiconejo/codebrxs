@@ -3,7 +3,7 @@ function Pagina2() {
 const nombre = "codebroxs";
   return (
     <>
-    <h1>pagina 2</h1>
+    <h1>tt cc fantasia alienigena</h1>
     <h3>{nombre}</h3>
     </>
   )
