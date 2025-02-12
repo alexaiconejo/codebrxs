@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Pagina2 = () => {
+const Tienda = () => {
   // Lista de productos con precios
   const productos = [
     { id: 1, nombre: "Producto A", precio: 10 },
@@ -88,4 +88,4 @@ const Pagina2 = () => {
   );
 };
 
-export default Pagina2;
+export default Tienda;

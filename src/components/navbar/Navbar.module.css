@@ -1,0 +1,44 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left, navigation to the right */
+    align-items: center; /* Vertically centers items */
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Centers the container */
+    padding: 0 20px; /* Adds some padding on the sides */
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navelements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arranges list items horizontally */
+  }
+  
+  .navelements li {
+    margin-left: 20px; /* Spacing between the links */
+  }
+  
+  .navelements a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navelements a:hover {
+    color: #f0c14b; /* Example hover color (gold-ish) */
+  }
+  
