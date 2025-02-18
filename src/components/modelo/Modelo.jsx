@@ -1,5 +1,5 @@
-import { Canvas } from "@react-three/fiber";
-import { useGLTF, OrbitControls } from "@react-three/drei";
+
+import { useGLTF } from "@react-three/drei";
 
 function Modelo() {
     const { scene } = useGLTF("/src/assets/obj3D/scene.gltf");

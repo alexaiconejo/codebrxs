@@ -2,6 +2,7 @@ import './App.css'
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Modelo from './components/modelo/modelo';
+import Escena from './components/escena/Escena';
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
         <ambientLight intensity={1.25} />
         <Modelo />
         <OrbitControls />
-      </Canvas></>
+      </Canvas>
+      <Escena></Escena>
+      </>
   );
 }
 
